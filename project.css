@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+#headpart {
+    background-color: rgb(4, 68, 68);
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid black;
+    align-items: center;
+    position: fixed;
+   
+}
+.head1 {
+    padding: 20px;
+    border-radius: 25%;
+}
+.head2 ul{
+    list-style-type: none;
+}
+.head2 ul li {
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+.head2 ul li a 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.head2 ul li:hover{
+    background-color: rgb(251, 111, 5);
+    border-radius: 100px;
+
+}
+.head3{
+    justify-content: space-between;
+   
+    padding: 30px;
+}
+#mainpart{
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    background-color: rgba(117, 248, 255, 0.884);
+}
+.mainpart1{ 
+    height: auto;
+    width: auto;
+    border: 3px solid black;
+}
+.mainpart1 div {
+    width: 100px;
+    height: 100px;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.login-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #fff;
+}
+
+.login-box h2 {
+  font-weight: normal;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-box .help-link {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.new-to-amazon {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.create-account {
+  width: 300px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e7e9ec;
+  border: 1px solid #adb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+}

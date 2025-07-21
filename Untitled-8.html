@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%; 
+        }
+        body{
+            font-family: 'Lucida Sans',sans-serif;
+
+        }
+        .gridcontainer{
+            display: grid;
+            grid-template-areas: 
+            'header header header header header header'
+            'menu main main main main right'
+            'footer footer footer footer footer footer';
+             gap: 10px;
+             background-color: rgb(255, 255, 255);
+             padding: 10px;
+
+        }
+         .gridcontainer>div {
+            padding: 10px;
+            font-size: 16px;
+            
+         }
+         .item1{
+            grid-area: header;
+            background-color: brown;
+            text-align: center;
+            color: #ffffff;
+         }
+         .item1>h1{
+            font-size: 40px;
+         }
+         .item2{
+            grid-area: menu;
+         }
+         .item2 ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+         }
+         .item2 li{
+            padding: 8px;
+            margin-bottom: 7px;
+            background-color: rgb(3, 188, 188);
+            color: #ffffff;
+         }
+         .item2 li:hover{
+            background-color: #0099cc;
+         }
+         .item3{
+               grid-area: main;
+         }
+         .item3>h1{
+            font-size: 40px;
+            margin-bottom: 7px;
+         }
+         .item3>p{
+            margin-bottom: 7px;
+         }
+         .item4{
+            grid-area: right;
+            border: 2px solid  black;
+            background-color: #ffffff;
+            padding: 15px;
+            color: #000;
+         }
+         .item4 li{
+            padding: 5px;
+            margin-bottom: 5px;
+         }
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="item1">
+            <h1>chania</h1>
+        </div>
+        <div class="item2">
+            <ul>
+                <li>THE FLIGHT</li>
+                <li>RHE CITY</li>
+                <li>TJHE ISLAND</li>
+                <li>THE FOOD</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="item3">
+        <h1>THE CITY</h1>
+        <p>chinia is the capital of the chania region on the island of crete</p>
+        <p> Ek picturesque harbor jismein old buildings aur shops hain.
+         Old Town: Narrow streets, historic buildings, aur vibrant markets.
+           Cretan Cuisine: Delicious local food, jaise ki moussaka, souvlaki, aur fresh seafood.
+        </p>
+
+    </div>
+
+    <div class="item4">
+        <h2>FACTS:</h2>
+        <ul>
+            <li>hla smartphone 1994 mein IBM dwara launch kiya gaya tha, jiska naam tha IBM Simon. </li>
+            <li>Yeh device touchscreen aur apps ke saath aaya tha, jo ki us samay ke liye ek revolutionary </li>
+        </ul>
+    </div>
+    <div class="item5">
+        <p>Lekin agar aap pehle mobile phone ki baat karein, to woh Motorola DynaTAC 8000X tha, jo 1973 mein launch hua tha. Yeh device 
+            brick-shaped tha aur iska weight lagbhag 2.4 pounds tha.
+</p>
+    </div>
+</body>
+</html>

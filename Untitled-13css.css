@@ -1,0 +1,66 @@
+.layout {
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "sidebar main"
+    "footer footer";
+     grid-template-columns: 1fr 3fr ;
+     grid-template-rows: 100px 400px 100px;
+     background-color: brown;
+     gap: 10px;
+}
+#headpart {
+    background-color: aqua;
+    height: 70px;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid black;
+    align-items: center;
+}
+.head1 {
+    padding: 20px;
+}
+.head2 ul{
+    list-style-type: none;
+}
+.head2 ul li {
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+.head2 ul li a 
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.head2 ul li:hover{
+    background-color: rgb(251, 111, 5);
+    border-radius: 100px;
+
+}
+.head3{
+    justify-content: space-between;
+   
+    padding: 30px;
+}
+
+.header {
+grid-area: header;
+background-color: aqua;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: aquamarine;
+}
+.main{
+    grid-area: main;
+    background-color: blue;
+}
+.footer{
+    grid-area: footer;
+    background-color: blueviolet;
+}

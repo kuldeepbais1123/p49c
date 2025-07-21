@@ -1,0 +1,15 @@
+.contener{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-rows: 1fr 1fr 1fr ; */
+    height: 100vh;
+    gap: 10px;
+    background-color: aqua;
+    place-content:center;
+
+}
+.box{
+    background-color: blueviolet;
+    padding: 10px;
+
+}
